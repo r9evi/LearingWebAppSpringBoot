@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресурсы</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Навигационная панель -->
+    <nav class="navbar">
+        <a class="navbar_brand" href="/Learn-platform">
+            <img src="../pictures/icon.svg" alt="Website Icon">
+        </a>
+        <div class="navbar_items">
+            <a href="/resources">Ресурсы</a>
+            <a href="/ready-courses">Все курсы</a>
+            <a href="/create-course">Свой курс</a>
+        </div>
+    </nav>
+
+    <!-- Контейнеры с темами -->
+    <div class="resources_container">
+        <!-- Пример контейнера с темой -->
+        <div class="resources_topic_container" onclick="window.location.href='database.html';">
+            <img src="../pictures/icon-test.svg" alt="Базы данных">
+            <p>Базы данных</p>
+        </div>
+
+        <!-- Добавьте другие контейнеры с темами здесь -->
+        <div class="resources_topic_container" onclick="window.location.href='java.html';">
+            <img src="../pictures/icon-test.svg" alt="Java">
+            <p>Java</p>
+        </div>
+
+        <div class="resources_topic_container" onclick="window.location.href='javascript.html';">
+            <img src="../pictures/icon-test.svg" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+
+        <div class="resources_topic_container" onclick="window.location.href='devops.html';">
+            <img src="../pictures/icon-test.svg" alt="DevOps">
+            <p>DevOps</p>
+        </div>
+        <!-- Продолжайте добавлять контейнеры для других тем -->
+
+    </div>
+</body>
+</html>

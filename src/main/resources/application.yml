@@ -7,3 +7,9 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  thymeleaf:
+    prefix: classpath:/static/views/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false  # Установите значение в false для разработки, чтобы избежать кэширования шаблонов
